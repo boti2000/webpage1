@@ -53,8 +53,8 @@ header a{
 }
 
 header li{
+    display: block;
     float: left;
-    display: inline;
     padding: 0 20px;   
 }
 
