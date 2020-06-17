@@ -8,7 +8,9 @@ body {
   background-color: rgb(224, 234, 245);
 }
 
+
 /* Global */
+
 .container {
   width: 80%;
   margin: auto;
@@ -36,7 +38,9 @@ ul {
   margin-bottom: 10px;
 }
 
+
 /* Header */
+
 header {
   background-color: rgb(58, 68, 78);
   color: #fff;
@@ -80,6 +84,7 @@ header a:hover {
   color: rgb(18, 141, 24);
 }
 
+
 /* Showcase */
 
 #showcase {
@@ -102,7 +107,9 @@ header a:hover {
   font-size: 20px;
 }
 
+
 /* Newsletter */
+
 #newsletter {
   padding: 15px;
   color: #fff;
@@ -124,6 +131,7 @@ header a:hover {
   width: 250px;
 }
 
+
 /* Boxes */
 
 #boxes {
@@ -141,6 +149,7 @@ header a:hover {
   width: 90px;
 }
 
+
 /* Sidebar*/
 
 aside#sidebar {
@@ -155,13 +164,17 @@ aside#sidebar .quote textarea {
   padding: 5px;
 }
 
+
 /* Article*/
+
 article#main-col {
   float: left;
   width: 65%;
 }
 
+
 /* Services */
+
 ul#services li {
   list-style: none;
   padding: 20px;
@@ -183,7 +196,9 @@ footer p {
   font-weight: bold;
 }
 
+
 /* Media Queries */
+
 @media (max-width: 768px) {
   header #branding,
   header nav,
@@ -199,15 +214,12 @@ footer p {
     padding: 0;
     margin: 0;
   }
-
   header {
     padding-bottom: 20px;
   }
-
   #showcase h2 {
     margin-top: 40px;
   }
-
   #newsletter button,
   .quote button {
     display: block;
@@ -234,7 +246,7 @@ footer p {
   display: block;
 }
 
-.custom-select > .custom-select-selected {
+.custom-select>.custom-select-selected {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -249,4 +261,8 @@ footer p {
   line-height: 37px;
   border: 1px solid #d0d0d0;
   padding: 0 30px 0 15px;
+}
+
+.bela {
+  color: red;
 }
