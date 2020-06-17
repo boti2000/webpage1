@@ -8,6 +8,7 @@ body {
   background-color: rgb(224, 234, 245);
 }
 
+
 /* Global */
 
 .container {
@@ -36,6 +37,7 @@ ul {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 
 /* Header */
 
@@ -82,6 +84,7 @@ header a:hover {
   color: rgb(18, 141, 24);
 }
 
+
 /* Showcase */
 
 #showcase {
@@ -103,6 +106,7 @@ header a:hover {
 #showcase p {
   font-size: 20px;
 }
+
 
 /* Newsletter */
 
@@ -127,6 +131,7 @@ header a:hover {
   width: 250px;
 }
 
+
 /* Boxes */
 
 #boxes {
@@ -144,6 +149,7 @@ header a:hover {
   width: 90px;
 }
 
+
 /* Sidebar*/
 
 aside#sidebar {
@@ -158,12 +164,14 @@ aside#sidebar .quote textarea {
   padding: 5px;
 }
 
+
 /* Article*/
 
 article#main-col {
   float: left;
   width: 65%;
 }
+
 
 /* Services */
 
@@ -187,6 +195,7 @@ footer p {
   font-size: 16px;
   font-weight: bold;
 }
+
 
 /* Media Queries */
 
@@ -224,6 +233,9 @@ footer p {
   }
 }
 
+
+/* I am a random comment */
+
 .btn.btn-block {
   display: block;
   padding-left: 15px;
@@ -237,7 +249,7 @@ footer p {
   display: block;
 }
 
-.custom-select > .custom-select-selected {
+.custom-select>.custom-select-selected {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
