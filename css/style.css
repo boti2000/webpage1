@@ -1,16 +1,14 @@
 body {
   /*font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
-	line-height: 1.5;*/
+    font-size: 15px;
+    line-height: 1.5;*/
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
   background-color: rgb(224, 234, 245);
 }
 
-
 /* Global */
-
 .container {
   width: 80%;
   margin: auto;
@@ -38,9 +36,7 @@ ul {
   margin-bottom: 10px;
 }
 
-
 /* Header */
-
 header {
   background-color: rgb(58, 68, 78);
   color: #fff;
@@ -84,7 +80,6 @@ header a:hover {
   color: rgb(18, 141, 24);
 }
 
-
 /* Showcase */
 
 #showcase {
@@ -107,9 +102,7 @@ header a:hover {
   font-size: 20px;
 }
 
-
 /* Newsletter */
-
 #newsletter {
   padding: 15px;
   color: #fff;
@@ -131,7 +124,6 @@ header a:hover {
   width: 250px;
 }
 
-
 /* Boxes */
 
 #boxes {
@@ -149,7 +141,6 @@ header a:hover {
   width: 90px;
 }
 
-
 /* Sidebar*/
 
 aside#sidebar {
@@ -164,17 +155,13 @@ aside#sidebar .quote textarea {
   padding: 5px;
 }
 
-
 /* Article*/
-
 article#main-col {
   float: left;
   width: 65%;
 }
 
-
 /* Services */
-
 ul#services li {
   list-style: none;
   padding: 20px;
@@ -196,9 +183,7 @@ footer p {
   font-weight: bold;
 }
 
-
 /* Media Queries */
-
 @media (max-width: 768px) {
   header #branding,
   header nav,
@@ -214,12 +199,15 @@ footer p {
     padding: 0;
     margin: 0;
   }
+
   header {
     padding-bottom: 20px;
   }
+
   #showcase h2 {
     margin-top: 40px;
   }
+
   #newsletter button,
   .quote button {
     display: block;
@@ -233,27 +221,32 @@ footer p {
   }
 }
 
-a.hover-image:after {
-  color: #ffffff;
-  content: '+';
-  font-weight: 100;
-  font-size: 500%;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50px;
-  height: 50px;
-  bottom: 0;
-  margin: auto;
-  padding-top: 20%;
-  right: 0;
-  line-height: 50px;
+.btn.btn-block {
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
   text-align: center;
-  z-index: 2;
+  width: 100%;
 }
 
-.bela {
-  color: red;
+.custom-select {
+  position: relative;
+  display: block;
+}
+
+.custom-select > .custom-select-selected {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: #ffffff;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 37px;
+  line-height: 37px;
+  border: 1px solid #d0d0d0;
+  padding: 0 30px 0 15px;
 }
